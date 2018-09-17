@@ -1,0 +1,25 @@
+
+public class WhileBoucle {
+
+	public static void main(String[] args) {
+	
+		 
+
+		int VariableX=1;
+		int VariableY=100;
+		while (VariableX <101 ) {
+			System.out.println("VariableX = " + VariableX);
+			VariableX++;
+
+	    while (VariableY>= 1 ) {
+				System.out.println("VariableY = " + VariableY);
+				VariableY--;	
+				}
+				
+	     
+		}
+	}
+	
+}
+
+

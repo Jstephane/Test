@@ -1,0 +1,17 @@
+
+public class ExoWhileBoucle {
+
+	public static void main(String[] args) {
+		
+		
+     int Nombre =1;
+     Nombre = Nombre + 1;
+	 while (Nombre <101 ) {
+	 System.out.println("Nombre = " + Nombre);
+
+	 }
+	}
+
+}
+	
+	

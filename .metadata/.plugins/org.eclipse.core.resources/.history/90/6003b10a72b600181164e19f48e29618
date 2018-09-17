@@ -1,0 +1,49 @@
+
+public class IfElseIfElseCondition {
+
+	public static void main(String[] args) {
+		
+		
+		int Note = 1;
+		if( Note > 10) { 
+			System.out.println("Le Note est > 10 ");
+		}else if(Note == 10) {  
+			System.out.println("Le Note est = 10 ");
+	    } else if (Note < 10) { 
+			System.out.println("Le Note est < 10 ");
+			
+		} System.out.println("ici c'est la fin du programme ");
+			
+	    }
+	
+	        
+	
+	double maNoteJava = 14;
+	double maNoteHTML = 13;
+	double maNoteJAVAScript = 9;
+	double maNoteCSS =7.5;
+    double CoefJava=3;
+    double CoefHtml=2;
+    double CoefJAVAscript=3;
+    double CoefCSS=1;		
+    double maMoyenne=( (maNoteJava + maNoteHTML + maNoteJAVAScript + maNoteCSS)/4 );
+    
+    
+    if( maMoyenne > 18) { 
+    System.out.println("La moyenne > 18 : Tres Bien "); }
+    else if( maMoyenne > 15) { 
+    System.out.println("La moyenne > 15 : Bien ");}
+    else if( maMoyenne > 12) { 
+    System.out.println("La moyenne > 12 : Assez Bien " );}
+    
+	System.out.println("La moyenne > 10 : Moyen ");
+	
+	
+	}
+		
+		
+		
+		
+		
+		
+		

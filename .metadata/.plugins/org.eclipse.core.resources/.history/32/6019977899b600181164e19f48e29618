@@ -1,0 +1,50 @@
+
+public class ExoOperateurLogique {
+	
+	
+	public static void main(String[] args) {
+	
+	
+	double NoteJava = 14;
+	double NoteHTML =14;
+	double NoteJAVAScript = 9;
+	double NoteCSS =14;
+	int CoefJava=3;
+	int CoefHtml=2;
+	int CoefJAVAscript=3;
+	int CoefCSS=1;	
+	int TotalCoef =CoefJava + CoefHtml + CoefJAVAscript + CoefCSS;
+	int TotalMatiere =4;
+	double noteTotale = NoteJava*CoefJava + NoteHTML*CoefHtml + NoteJAVAScript*CoefJAVAscript + NoteCSS*CoefCSS;
+	double Moyenne= noteTotale / TotalMatiere;
+	double MoyenneGenerale = Moyenne / TotalCoef;
+	
+	if( Moyenne > 10 || MoyenneGenerale > 10) { 
+		System.out.println("Vous avez la moyenne ");
+
+    }if( Moyenne > 10 &&  NoteJava > 10) { 
+		System.out.println("Vous avez eu la moyenne et une bonne note en Java");
+		
+		
+    }if( NoteCSS > 10 || NoteHTML > 10 || NoteJAVAScript > 10) { 
+		System.out.println("Vous avez eu une bonne note en html ou Css ou Javascript");
+		
+    }if( NoteCSS > 10 && NoteHTML > 10 && NoteJAVAScript > 10) { 
+		System.out.println("Vous avez eu une bonne note en html et Css et Javascript");		
+			
+    }if( NoteJava > 15 && NoteJAVAScript > 15 ) { 
+		System.out.println("Vous avez eu une très bonne note en Java et Javascript");
+
+    }if( Moyenne < 10 || MoyenneGenerale < 10) { 
+		System.out.println("Vous n'avez pas eu la moyenne");
+		
+   	
+	}if( NoteJava <  5 || NoteHTML <  5 || NoteJAVAScript <  5 || NoteJAVAScript <  5 ) { 
+		System.out.println("Vous devez travailler sérieusement une des quatre matières");
+	
+	
+	
+	}
+	
+	}
+}

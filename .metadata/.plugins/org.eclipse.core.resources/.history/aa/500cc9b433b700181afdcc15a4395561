@@ -1,0 +1,29 @@
+
+public class WhileBoucle {
+
+	public static void main(String[] args) {
+	
+		 
+
+		int VariableX=1;
+		int VariableY=100;
+		
+		while (VariableX <101 ) {
+	
+			VariableX++;
+
+	    while (VariableY>= 1 ) {
+	
+				VariableY--;	
+				
+				System.out.println("VariableX = " + VariableX  +   "VariableY = " + VariableY);
+				
+				}
+				
+	     
+		}
+	}
+	
+}
+
+

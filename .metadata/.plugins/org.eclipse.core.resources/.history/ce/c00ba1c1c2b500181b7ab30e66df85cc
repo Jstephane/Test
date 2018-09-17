@@ -1,0 +1,19 @@
+
+public class ExoConditionIf {
+
+	public static void main(String[] args) {
+		
+		int maNote=15;
+		int monCoef=8;
+		int Resulat = maNote* monCoef;
+		
+		
+		int Resultat = maNote * monCoef;
+		if (Resultat >= 50)   { 
+			System.out.println("Resultat =" + Resultat);
+		
+    	}
+
+	}
+
+}

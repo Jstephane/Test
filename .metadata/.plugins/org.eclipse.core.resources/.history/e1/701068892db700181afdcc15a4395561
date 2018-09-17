@@ -1,0 +1,16 @@
+
+public class WhileBoucle {
+
+	public static void main(String[] args) {
+	
+		 
+	     int NombrePaire=0;
+	     NombrePaire = NombrePaire + 2;
+	     while (NombrePaire < 102 ) {
+				System.out.println("NombrePaire = " + NombrePaire);
+				
+	     
+		}
+	}
+
+}

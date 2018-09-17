@@ -1,0 +1,36 @@
+
+public class Typesvariables {
+
+	public static void main(String[] args) {
+    int entier=14;
+    System.out.println("La variable entier = " + entier);
+    float decimal=12.5f;
+    System.out.println("La variable decimale = " + decimal);
+    double decimaldoubleprec =15.5;
+    System.out.println("La variable decimaldoubleprec = " + decimaldoubleprec);
+    Boolean bool = true;
+    System.out.println("La variable bool = " + bool);
+    char caractere ='z';
+    System.out.println("La variable caractere = " + caractere);
+    String chaine ="Hello";
+    System.out.println("La variable String = " + chaine);
+    System.out.println();
+   
+    System.out.println("La variable entier1 * La variable entier2 = " + (12*12));
+    int VariableEntier1 = 12;
+    int VariableEntier2 = 4;
+    System.out.println("La variable entier1 * La variable entier2 = " + (VariableEntier1*VariableEntier2));
+    
+
+    int Prix =10;
+    int TVA=20;
+    System.out.println("Prix * TVA = " + (Prix * TVA ));
+    
+    
+    int VariablePrix =10;
+    int VariableTVA=20;
+    System.out.println("La Variable Prix * La Variable TVA = " + (Prix * TVA ));
+
+	}
+
+}

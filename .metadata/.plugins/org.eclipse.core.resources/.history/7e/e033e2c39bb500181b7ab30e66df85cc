@@ -1,0 +1,32 @@
+
+public class ExoVariables {
+
+	public static void main(String[] args) {
+         
+		
+		
+		double maNote=15;
+		int monCoef=2;
+	    double monResultat=( maNote * monCoef);
+	    System.out.println("maNote = " + maNote);
+	    System.out.println("monCoef = " + monCoef);
+	    System.out.println("monResultat = " + monResultat);
+	    
+	    
+	    maNote=34;
+	    monCoef=6;
+	    monResultat=( maNote * monCoef);
+	    System.out.println("maNote = " + maNote);
+	    System.out.println("monCoef = " + monCoef);
+	    System.out.println("monResultat = " + monResultat);
+	    
+	    
+	    maNote=15;
+	    monCoef=2;
+	    System.out.println("maNote = " + maNote);
+	    System.out.println("monCoef = " + monCoef);
+	    System.out.println("monResultat = " + monResultat);
+	    
+	}
+
+}

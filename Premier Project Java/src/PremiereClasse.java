@@ -1,0 +1,24 @@
+
+public class PremiereClasse {
+
+	public static void main(String[] args) {
+System.out.println("Bonjour");
+System.out.println("Bonsoir");
+System.out.println("Pas d'Erreur");
+System.out.println("12");
+System.out.println("12,2");
+System.out.println("ab");
+System.out.println(true);
+System.out.println(12*12);
+System.out.println("Bonjour " + "Monsieur");
+System.out.println("Bonjour " + "Monsieur " + 124);
+System.out.println("12 * 12 = " + 12*12);
+System.out.println("12 - 12 = " + (12-12));
+System.out.println("12 + 12 = " + (12+12));
+System.out.println("12 / 12 = " + (12/12));
+System.out.print("Bonjour");
+System.out.println();
+
+}
+
+}

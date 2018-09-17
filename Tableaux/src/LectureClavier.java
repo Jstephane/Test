@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+public class LectureClavier {
+
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Debut");
+		String chaine = sc.nextLine();
+		if (chaine.equals("Bonjour"))
+		System.out.println("Vous avez saisi :  Bonjour");	
+		System.out.println("Fin");
+	}
+	
+	
+	 {
+			
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Debut");
+			
+			String chaine = sc.nextLine();
+			System.out.println("Vous avez saisi   " + chaine );
+			
+			int entier = sc.nextInt();
+			System.out.println("Vous avez saisi   " + entier );
+			
+			float decimal=sc.nextFloat();
+			System.out.println("Vous avez saisi   " + decimal);
+			
+			double decimaldouble=sc.nextDouble();
+			System.out.println("Vous avez saisi  " + decimaldouble);
+			
+			boolean bool =sc.nextBoolean();
+			System.out.println("Vous avez saisi " + bool);
+			
+			if (chaine.equals("Bonjour"))
+			System.out.println("Vous avez saisi :  Bonjour");	
+
+			if (bool) {System.out.println("Vous avez saisi true dans le boolean ");
+			}
+			
+			System.out.println("Entier + 100 = " + (entier + 100 ));
+			
+			int a = sc.nextInt();
+			int b = sc.nextInt();
+			if ( a>=b)
+			System.out.println("Fin");
+            sc.close();
+			
+           
+}
+
+	 
+}
